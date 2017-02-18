@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">tatilbudur</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="checkin_date">Giriş Tarihi</string>
+    <string name="checkout_date">Cikis Tarihi</string>
+    <string name="search_otel">OTEL ARA</string>
+    <string name="search_room">ODA ARA</string>
+
+    <string name="give_up">Vazgeç</string>
+    <string name="otel">Otel</string>
+    <string name="tour">Tur</string>
+    <string name="flight">Uçak</string>
+    <string name="opportunities">Fırsatlar</string>
+    <string name="adult">yetişkin</string>
+    <string name="child">çocuk</string>
+    <string name="room">oda</string>
+    <string name="city_or_otel_name">Şehir veya Otel Adı</string>
+    <string name="person_room_selection">Kişi/Oda Seçimi</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Iptal</string>
+    <string name="ages_of_children">COCUKLARIN YAŞLARI</string>
+    <string name="date_selection">TARİH SEÇİMİ</string>
+    <string name="date_tab_dummy_text">Oct 5, 2015</string>
+    <string name="filter">Filtrele</string>
+    <string name="result">Sonuç</string>
+    <string name="best_price_guarante">EN İYİ FİYAT\nGARANTİSİ</string>
+    <string name="discount">İNDİRİM</string>
+    <string name="buy_now">HEMEN\nSATIN AL</string>
+
+
+    <string-array name="order_titles">
+        <item>POPÜLER</item>
+        <item>FİYAT(ARTAN)</item>
+        <item>FİYAT(AZALAN)</item>
+        <item>ALFABETİK</item>
+    </string-array>
+
+    <string-array name="hotel_detail_tabs">
+        <item>Bilgi</item>
+        <item>Fiyatlar</item>
+        <item>Teşekkurler</item>
+    </string-array>
+
+    <string name="discount_ratio">İndirim oranı</string>
+    <string name="double_price">Kişi başı</string>
+    <string name="single_price">Tek başı</string>
+    <string name="additional_price">İlave yatak</string>
+    <string name="first_child">1 Çocuk</string>
+    <string name="second_child">2 Çocuk</string>
+
+    <string name="status">Durum</string>
+    <string name="child2">Cocuk</string>
+    <string name="baby">Bebek</string>
+    <string name="not_obligotary">ZORUNLU DEGIL</string>
+
+
+    <string name="search_tour">TUR ARA</string>
+    <string name="tour_or_region_name">Tur Adi veya Bolge Adi</string>
+    <string name="tour_period">Gitmek Istediginiz Donem</string>
+    <string name="culture_tours">KULTUR\nTURLARI</string>
+    <string name="abroad_tours">YURTDISI\nTURLARI</string>
+    <string name="ship_tours">GEMI\nTURLARI</string>
+
+    <string-array name="tour_detail_tabs">
+        <item>Bilgi</item>
+        <item>Fiyatlar</item>
+        <item>Genel Sartlar</item>
+    </string-array>
+
+    <string name="loading">BILGILER YUKLENIYOR</string>
+
+
+    <string name="search_plane">UÇUS ARA</string>
+    <string name="flight_from">Nereden</string>
+    <string name="flight_to">Nereye</string>
+
+    <string name="roundtrip">Gidiş - Dönüş</string>
+    <string name="oneway">Tek Yön</string>
+    <string name="departure_date">Gidiş Tarihi</string>
+    <string name="arrival_date">Dönüş Tarihi</string>
+    <string name="err_title">Uyarı</string>
+    <string name="general_err_message">Bir hata oluştu</string>
+    <string name="close">Kapat</string>
+    <string name="lbl_ok">Tamam</string>
+    <string name="lbl_cancel">Vazgeç</string>
+    <string name="back">Geri</string>
+    <string name="departure">GİDİŞ</string>
+
+
+    <string name="slogan">your reading companion</string>
+    <string name="email_hint">E-mail</string>
+    <string name="status_hint">Status</string>
+    <string name="password_hint">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or">or</string>
+    <string name="help">Help</string>
+    <string name="next">NEXT</string>
+    <string name="comment_hint">Comment</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="re_password_hint">Re-Password</string>
+    <string name="new_quote">NEW QUOTE</string>
+    <string name="save">SAVE</string>
+    <string name="settings">SETTINGS</string>
+    <string name="photo_edit">PHOTO EDIT</string>
+    <string name="quote_detail">QUOTE DETAIL</string>
+    <string name="text_selection">TEXT SELECTION</string>
+    <string name="profile">PROFILE</string>
+    <string name="book_info">BOOK INFO</string>
+    <string name="author_info">AUTHOR INFO</string>
+    <string name="take_photo">TAKE PHOTO</string>
+    <string name="add_book_info">ADD BOOK INFO</string>
+    <string name="save_quote">SAVE QUOTE</string>
+    <string name="new_book">NEW BOOK</string>
+    <string name="search_book">SEARCH BOOK</string>
+    <string name="save_book">SAVE BOOK</string>
+    <string name="search_author">SEARCH AUTHOR</string>
+    <string name="new_author">NEW AUTHOR</string>
+    <string name="save_author">SAVE AUTHOR</string>
+    <string name="title_hint">Title</string>
+    <string name="published_year_hint">Published Year</string>
+    <string name="description_hint">Description</string>
+    <string name="info_hint">Info</string>
+    <string name="search_hint">Search</string>
+    <string name="follow">FOLLOW</string>
+    <string name="unfollow">UNFOLLOW</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="followers">FOLLOWERS</string>
+    <string name="following">FOLLOWING</string>
+    <string name="quotes">QUOTES</string>
+    <string name="books">BOOKS</string>
+    <string name="about_book">ABOUT BOOK</string>
+    <string name="author">AUTHOR</string>
+    <string name="publish_date">PUBLISH DATE</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="login_facebook">LOGIN FACEBOOK</string>
+    <string name="login_twitter">LOGIN TWITTER</string>
+    <string name="mock_email">t@t.com</string>
+    <string name="mock_password">P@ssword1!</string>
+    <string name="no_book_selected">No book selected.</string>
+    <string name="no_author_selected">No author selected.</string>
+    <string name="likes">LIKES</string>
+    <string name="getUsers">USERS</string>
+    <string name="comments">COMMENTS</string>
+
+    <!-- MENU -->
+    <string name="menu_feed">FEED</string>
+    <string name="menu_profile">PROFILE</string>
+    <string name="logout">LOGOUT</string>
+    <!-- /MENU -->
+
+    <!-- FormError -->
+    <string name="first_name_error">Lenght of first name must be longer than 2.</string>
+    <string name="last_name_error">Lenght of first name must be longer than 2.</string>
+    <string name="email_error">Email is not correct.</string>
+    <string name="password_error">Length of password must be longer than 5.</string>
+    <string name="password_match_error">Passwords are not matching.</string>
+    <string name="title_error">Lenght of title must be longer than 2.</string>
+    <string name="published_year_error">Lenght of published year must be 4.</string>
+    <string name="description_error">Length of description must be longer than 5.</string>
+    <string name="info_error">Length of info must be longer than 5.</string>
+    <string name="author_choose_error">Choose an author!</string>
+    <string name="book_choose_error">Choose a book!</string>
+    <!-- /FormError -->
+
+
+</resources>

@@ -1,0 +1,59 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_dark">
+
+    <co.lowprofile.ooquo.view.ui.HeaderView
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <co.lowprofile.ooquo.view.ui.SearchInput
+        android:id="@+id/searchInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/headerView"/>
+
+
+    <co.lowprofile.ooquo.view.common.button.CustomFontButton
+        style="@style/Button"
+        android:id="@+id/okButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/ok"/>
+
+    <co.lowprofile.ooquo.view.common.button.CustomFontButton
+        style="@style/Button"
+        android:id="@+id/newBookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_above="@id/okButton"
+        android:text="@string/new_book"/>
+
+    <ListView
+        style="@style/ListView"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchInput"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:dividerHeight="10dp"
+        android:divider="@color/transparent"
+        android:choiceMode="singleChoice"
+        android:layout_above="@id/newBookButton"/>
+
+</RelativeLayout>

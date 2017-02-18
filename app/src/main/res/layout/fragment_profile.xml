@@ -1,0 +1,91 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray_dark">
+
+    <co.lowprofile.ooquo.view.ui.HeaderView
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/profileContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@id/headerView">
+
+        <ImageView
+            android:id="@+id/profilePhoto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"/>
+
+        <co.lowprofile.ooquo.view.common.text.CustomFontText
+            android:id="@+id/fullNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/profilePhoto"
+            android:layout_marginLeft="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/profilePhoto"
+            android:layout_marginTop="20dp">
+
+            <co.lowprofile.ooquo.view.ui.FollowButton
+                android:id="@+id/followerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"/>
+
+            <co.lowprofile.ooquo.view.ui.FollowButton
+                android:id="@+id/followingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"/>
+
+            <co.lowprofile.ooquo.view.common.button.CustomFontButton
+                style="@style/FollowButton"
+                android:id="@+id/followButton"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/follow"/>
+
+            <co.lowprofile.ooquo.view.common.button.CustomFontButton
+                style="@style/FollowButton"
+                android:id="@+id/editProfileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/edit_profile"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.TabLayout
+        style="@style/TabLayout"
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:visibility="invisible"
+        android:layout_below="@id/profileContainer"/>
+
+    <co.lowprofile.ooquo.view.common.fragment.pager.BaseViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tabLayout"
+        android:layout_marginTop="-2dp"
+        android:visibility="invisible"
+        android:background="@color/white_milk"/>
+
+</RelativeLayout>

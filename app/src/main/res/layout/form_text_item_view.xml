@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/txtIcon"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="*"
+        android:textColor="@color/red"/>
+
+    <ImageView
+        android:id="@+id/imgCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/check_icon"/>
+
+    <co.lowprofile.ooquo.view.common.text.CustomFontEditText
+        style="@style/FormInputText"
+        android:id="@+id/txtTitle"
+        android:text="Kara Tarafi Oda"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/txtIcon"
+        android:layout_toLeftOf="@id/imgCheck"/>
+
+    <View
+        style="@style/ListSeparator"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/txtTitle"/>
+
+</RelativeLayout>

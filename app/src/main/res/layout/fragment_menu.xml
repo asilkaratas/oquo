@@ -1,0 +1,83 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/gray_dark">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/menu_header"/>
+
+        <LinearLayout
+            android:id="@+id/buttonContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="50dp"
+            android:gravity="top"
+            android:layout_below="@id/logo">
+
+            <co.lowprofile.ooquo.view.common.button.CustomFontButton
+                style="@style/MenuTextButton"
+                android:id="@+id/feedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_feed"/>
+
+            <co.lowprofile.ooquo.view.common.button.CustomFontButton
+                style="@style/MenuTextButton"
+                android:id="@+id/profileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_profile"/>
+
+            <co.lowprofile.ooquo.view.common.button.CustomFontButton
+                style="@style/MenuTextButton"
+                android:id="@+id/logoutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/logout"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/buttonContainer"
+            android:layout_marginBottom="40dp"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                style="@style/MenuCameraButton"
+                android:id="@+id/menuCameraButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"/>
+
+            <ImageButton
+                style="@style/MenuSettingsButton"
+                android:id="@+id/menuSettingsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"/>
+
+
+</LinearLayout>

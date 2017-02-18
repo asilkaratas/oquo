@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@color/gray_dark">
+        <ImageView
+            android:id="@+id/profilePhoto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/dummy_profile_photo"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <co.lowprofile.ooquo.view.common.button.CustomFontButton
+                style="@style/UserNameButton"
+                android:id="@+id/userNameButton"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Hamza"/>
+
+            <co.lowprofile.ooquo.view.common.button.CustomFontButton
+                style="@style/BookAuthorNameButton"
+                android:id="@+id/bookAuthorNameButton"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Edgar Allen Poe - Raven"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/quoteImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:src="@drawable/dummy_quote"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white_milk"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:src="@drawable/like_icon"/>
+
+            <co.lowprofile.ooquo.view.common.button.CustomFontButton
+                style="@style/UnderlinedTextButton"
+                android:id="@+id/likesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="12 likes"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_separator"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:src="@drawable/comment_icon"/>
+            <co.lowprofile.ooquo.view.common.button.CustomFontButton
+                style="@style/UnderlinedTextButton"
+                android:id="@+id/commentsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="12 comments"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/commentsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:orientation="vertical"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+            <ImageButton
+                style="@style/LikeButton"
+                android:id="@+id/likeButton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentLeft="true"/>
+
+            <ImageButton
+                style="@style/MoreButton"
+                android:id="@+id/moreButton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/more_button_enabled"/>
+
+            <co.lowprofile.ooquo.view.common.text.CustomFontEditText
+                style="@style/CommentInput"
+                android:id="@+id/commentInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/likeButton"
+                android:layout_toLeftOf="@id/moreButton"
+                android:hint="@string/comment_hint"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

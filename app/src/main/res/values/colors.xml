@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="gray_text_light" type="color">#727f80</item>
+    <item name="gray_text" type="color">#3d3d3d</item>
+    <item name="gray_bg_light" type="color">#f4f4f4</item>
+    <item name="gray_bg" type="color">#dfe4e9</item>
+    <item name="gray_bg_dark" type="color">#313131</item>
+    <item name="gray_activity_bg" type="color">#ebebeb</item>
+    <item name="gray_title_text" type="color">#4f5859</item>
+    <item name="gray_header_line" type="color">#b2b2b2</item>
+    <item name="gray_seach_bg" type="color">#dddddd</item>
+    <item name="orange" type="color">#f39c12</item>
+    <item name="orange_light" type="color">#fef5e7</item>
+    <item name="white" type="color">#ffffff</item>
+    <item name="blue" type="color">#4798cf</item>
+    <item name="light_blue" type="color">#3b89be</item>
+    <item name="tab_separator" type="color">#3478a7</item>
+    <item name="red" type="color">#e74c3c</item>
+
+
+    <item name="transparent" type="color">#00000000</item>
+    <item name="gray_dark" type="color">#181818</item>
+    <item name="gray" type="color">#666666</item>
+    <item name="gray_separator" type="color">#d9d8d8</item>
+    <item name="gray_very_light" type="color">#d1d0cf</item>
+    <item name="gray_light" type="color">#a1a1a1</item>
+    <item name="white_dirty" type="color">#e6e6e6</item>
+    <item name="white_milk" type="color">#eeeeee</item>
+    <item name="yellow" type="color">#dfc798</item>
+    <item name="black" type="color">#000000</item>
+    <item name="brown" type="color">#84807e</item>
+    <item name="brown_dark" type="color">#393532</item>
+    <item name="brown_light" type="color">#c2c0bf</item>
+
+</resources>

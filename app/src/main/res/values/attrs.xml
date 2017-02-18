@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DateView">
+        <attr name="date_title" format="string"/>
+        <attr name="date_string" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ReserveInfoView">
+        <attr name="reserve_type" format="string"/>
+        <attr name="reserve_icon" format="reference"/>
+        <attr name="reserve_count" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="TabButton">
+        <attr name="tab_title" format="string"/>
+        <attr name="tab_icon" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="DateTabButton">
+        <attr name="date_tab_title" format="string"/>
+        <attr name="date_tab_date" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="DateButton">
+        <attr name="date_date" format="string"/>
+        <attr name="date_icon" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="OrderTabButton">
+        <attr name="sort_tab_title" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="SearchButton">
+        <attr name="search_title" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="TextIconButton">
+        <attr name="text_icon_title" format="string"/>
+        <attr name="text_icon_icon" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SearchInput">
+        <attr name="search_hint" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ReserveListItemView">
+        <attr name="reserve_list_item_type" format="string"/>
+        <attr name="reserve_list_item_icon" format="reference"/>
+        <attr name="reserve_list_item_value" format="integer"/>
+        <attr name="reserve_list_item_min_value" format="integer"/>
+        <attr name="reserve_list_item_max_value" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="HeaderView">
+        <attr name="header_title" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundBorderButton">
+        <attr name="round_button_title" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="PriceView">
+        <attr name="price_currency" format="string"/>
+        <attr name="price_price" format="float"/>
+        <attr name="price_color" format="color"/>
+        <attr name="price_show_line" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomFont">
+        <attr name="font" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="DateRecyclerViewWidget">
+        <attr name="date_start" format="string"/>
+        <attr name="date_end" format="string"/>
+        <attr name="default_day_selection" format="string"/>
+    </declare-styleable>
+    
+</resources>

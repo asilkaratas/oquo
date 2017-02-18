@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/commentListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+        <co.lowprofile.ooquo.view.common.text.CustomFontText
+            style="@style/CommentUserNameText"
+            android:id="@+id/userNameText"
+            android:text="Kara Tarafi Oda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <co.lowprofile.ooquo.view.common.text.CustomFontText
+            style="@style/CommentText"
+            android:id="@+id/commentText"
+            android:text="Kara Tarafi Oda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

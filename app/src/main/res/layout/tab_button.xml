@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    style="@style/TabButton"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_margin="0dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_height="45dp">
+
+    <co.lowprofile.ooquo.view.common.text.CustomFontText
+        style="@style/TabButtonTitle"
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quotes"/>
+
+    <co.lowprofile.ooquo.view.common.text.CustomFontText
+        style="@style/TabButtonCount"
+        android:id="@+id/countText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/titleText"
+        android:text="2"/>
+</RelativeLayout>

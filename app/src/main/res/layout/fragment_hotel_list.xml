@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    style="@style/Fragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        style="@style/ListView"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.mikatur.tatilbudur.view.ui.HotelFilterButton
+        android:id="@+id/filter_button"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="@drawable/hotel_filter_button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"/>
+
+    <com.mikatur.tatilbudur.view.ui.HotelFilterButton
+        android:id="@+id/header"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="@drawable/hotel_filter_button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"/>
+
+    <com.mikatur.tatilbudur.view.ui.HotelFilterButton
+        android:id="@+id/btnNext"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="@drawable/hotel_filter_button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"/>
+
+</RelativeLayout>
